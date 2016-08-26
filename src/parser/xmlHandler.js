@@ -104,7 +104,6 @@ class XMLHandler {
             declareNamespace(nsContext, element, 'xsi', helper.namespaces.xsi);
             element.attribute('xsi:nil', true);
           }
-<<<<<<< e0fcf4af0b54a12fc73109c541de73a25f1f95f9
         }
         nsContext.popContext();
         return node;
